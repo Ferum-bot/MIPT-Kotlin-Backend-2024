@@ -5,7 +5,7 @@ import com.mipt.kotlin.coroutines.practice.services.impl.PracticeServiceImpl
 import kotlinx.coroutines.runBlocking
 
 fun main(args: Array<String>) {
-    val practiceService: PracticeService = TODO("Add your implementation here")
+    val practiceService: PracticeService = PracticeServiceImpl()
 
     runBlocking {
         practiceService.startWork()
